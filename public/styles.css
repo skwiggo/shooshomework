@@ -1,0 +1,21 @@
+body {
+  background: radial-gradient(circle, black, white);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: indigo;
+  font-family: tahoma;
+  font-size: 15px;
+  color: black;
+}
+
+div { 
+     width: 140px;
+     height: 140px;
+     background: grey; 
+     -moz-border-radius: 70px; 
+     -webkit-border-radius: 70px; 
+     border-radius: 70px;
+     font-family: tahoma;
+     size: 40px;
+     color: black;
+  }

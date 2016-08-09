@@ -1,0 +1,7 @@
+<h1>Total pre-orders this quarter: </h1>
+
+<% @shoes.each do |shoe| %>
+  <p>Name: <%= shoe.concat_name() %></p>
+  <p>Order: <%= shoe.shoe_size() %> x <%= shoe.quantity %></p>
+   <hr>
+<% end %>
